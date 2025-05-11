@@ -1,0 +1,1687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sirasa</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <link rel="icon" type="image/png" href="img/Logo.png" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar start -->
+    <div class="container-fluid fixed-top">
+      <div class="container topbar bg-primary d-none d-lg-block">
+        <div class="d-flex justify-content-between">
+          <div class="top-info ps-2">
+            <small class="me-3"
+              ><i class="fas fa-map-marker-alt me-2 text-secondary"></i>
+              <a href="#" class="text-white"
+                >Kec.Sumberbaru, Kab.Jember</a
+              ></small
+            >
+            <small class="me-3"
+              ><i class="fas fa-envelope me-2 text-secondary"></i
+              ><a href="#" class="text-white">Sirasa@gmail.com</a></small
+            >
+          </div>
+          <div class="top-link pe-2">
+            <a href="#" class="text-white"
+              ><small class="text-white mx-2">Kebijakan Privasi</small>/</a
+            >
+            <a href="#" class="text-white"
+              ><small class="text-white mx-2">Ketentuan Penggunaan</small>/</a
+            >
+            <a href="#" class="text-white"
+              ><small class="text-white ms-2"
+                >Penjualan dan Pengembalian Dana</small
+              ></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="container px-0">
+        <nav class="navbar navbar-light bg-white navbar-expand-xl">
+          <a href="index.html" class="navbar-brand"
+            ><h1 class="text-primary display-6">Sirasa</h1></a
+          >
+          <button
+            class="navbar-toggler py-2 px-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="fa fa-bars text-primary"></span>
+          </button>
+          <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+            <div class="navbar-nav mx-auto">
+              <a href="index.html" class="nav-item nav-link active">Home</a>
+              <a href="shop.html" class="nav-item nav-link">Shop</a>
+              <a href="testimonial.html" class="nav-item nav-link"
+                >Testimonal</a
+              >
+              <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class="d-flex m-3 me-0">
+              <a href="#" class="position-relative me-4 my-auto">
+                <i class="fa fa-shopping-bag fa-2x"></i>
+                <span
+                  class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1"
+                  style="top: -5px; left: 15px; height: 20px; min-width: 20px"
+                  >0</span
+                >
+              </a>
+              <a href="#" class="my-auto">
+                <i class="fas fa-user fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <div class="container-fluid py-5 mb-5 hero-header">
+      <div class="container py-5">
+        <div class="row g-5 align-items-center">
+          <div class="col-md-12 col-lg-7">
+            <h4 class="mb-3 text-secondary">
+              Penuh Kebaikan dalam Setiap Sajian
+            </h4>
+            <h1 class="mb-5 display-3 text-primary">
+              Makanan Sehat & Minuman Segar
+            </h1>
+          </div>
+          <div class="col-md-12 col-lg-5">
+            <div
+              id="carouselId"
+              class="carousel slide position-relative"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active rounded">
+                  <img
+                    src="img/Kumpulan Makanan.jpg"
+                    class="img-fluid w-100 h-100 bg-secondary rounded"
+                    alt="First slide"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Featurs Section Start -->
+    <div class="container-fluid featurs py-5">
+      <div class="container py-5">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="featurs-item text-center rounded bg-light p-4">
+              <div
+                class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto"
+              >
+                <i class="fas fa-car-side fa-3x text-white"></i>
+              </div>
+              <div class="featurs-content text-center">
+                <h5>Layanan Catering</h5>
+                <p class="mb-0">
+                  Pesan untuk acara harian, kantor, atau keluarga
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="featurs-item text-center rounded bg-light p-4">
+              <div
+                class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto"
+              >
+                <i class="fas fa-user-shield fa-3x text-white"></i>
+              </div>
+              <div class="featurs-content text-center">
+                <h5>Pembayaran Aman</h5>
+                <p class="mb-0">Transaksi mudah dan terpercaya</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="featurs-item text-center rounded bg-light p-4">
+              <div
+                class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto"
+              >
+                <i class="fas fa-exchange-alt fa-3x text-white"></i>
+              </div>
+              <div class="featurs-content text-center">
+                <h5>Pesanan Fleksibel</h5>
+                <p class="mb-0">Bisa pre-order & ubah jadwal H-1</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="featurs-item text-center rounded bg-light p-4">
+              <div
+                class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto"
+              >
+                <i class="fa fa-phone-alt fa-3x text-white"></i>
+              </div>
+              <div class="featurs-content text-center">
+                <h5>Layanan 24 Jam</h5>
+                <p class="mb-0">Siap melayani kapan pun Anda lapar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Featurs Section End -->
+
+    <!-- Fruits Shop Start-->
+    <div class="container-fluid fruite py-5">
+      <div class="container py-5">
+        <div class="tab-class text-center">
+          <div class="row g-4">
+            <div class="col-lg-4 text-start">
+              <h1>Menu Sehat Pilihan Kami</h1>
+            </div>
+            <div class="col-lg-8 text-end">
+              <ul class="nav nav-pills d-inline-flex text-center mb-5">
+                <li class="nav-item">
+                  <a
+                    class="d-flex m-2 py-2 bg-light rounded-pill active"
+                    data-bs-toggle="pill"
+                    href="#tab-1"
+                  >
+                    <span class="text-dark" style="width: 130px"
+                      >Semua Menu</span
+                    >
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="d-flex py-2 m-2 bg-light rounded-pill"
+                    data-bs-toggle="pill"
+                    href="#tab-2"
+                  >
+                    <span class="text-dark" style="width: 130px"
+                      >Nasi Goreng</span
+                    >
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="d-flex m-2 py-2 bg-light rounded-pill"
+                    data-bs-toggle="pill"
+                    href="#tab-3"
+                  >
+                    <span class="text-dark" style="width: 130px">Makanan</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="d-flex m-2 py-2 bg-light rounded-pill"
+                    data-bs-toggle="pill"
+                    href="#tab-4"
+                  >
+                    <span class="text-dark" style="width: 130px">Minuman</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="d-flex m-2 py-2 bg-light rounded-pill"
+                    data-bs-toggle="pill"
+                    href="#tab-5"
+                  >
+                    <span class="text-dark" style="width: 130px">Snack</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-content">
+            <div id="tab-1" class="tab-pane fade show p-0 active">
+              <div class="row g-4">
+                <div class="col-lg-12">
+                  <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Ayam bakar.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Ayam Bakar</h4>
+                          <p>
+                            Ayam yang dimasak dengan cara dibakar setelah
+                            dibumbui, menghasilkan rasa gurih dan aroma khas
+                            asap yang menggugah selera.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Ayam Goreng.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Ayam Goreng</h4>
+                          <p>
+                            Ayam yang digoreng hingga renyah dan berwarna
+                            keemasan, memiliki cita rasa gurih dan tekstur yang
+                            krispi di luar, lembut di dalam.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Ayam Geprek.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Ayam Geprek</h4>
+                          <p>
+                            Ayam goreng krispi yang digeprek dengan sambal
+                            pedas, menyajikan perpaduan rasa gurih dan pedas
+                            yang menggoda selera.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Bebek Goreng.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Bebek Goreng</h4>
+                          <p>
+                            Daging bebek yang digoreng hingga garing di luar
+                            namun tetap empuk di dalam, disajikan dengan bumbu
+                            rempah khas yang bikin ketagihan.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Bebek Bakar.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Bebek Bakar</h4>
+                          <p>
+                            Bebek yang dibumbui lalu dibakar hingga matang
+                            sempurna, menghasilkan rasa gurih dengan aroma
+                            bakaran yang khas menjadikan sebuah makanan yang
+                            lezat
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Ikan Gurame Asam Manis.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Gurami Asam Manis</h4>
+                          <p>
+                            Ikan gurami yang digoreng lalu disiram saus asam
+                            manis, menghasilkan perpaduan rasa segar dan gurih
+                            yang menggugah selera.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Ikan Gurame Goreng.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-1 rounded-bottom"
+                        >
+                          <h4>Gurami Asam Pedas</h4>
+                          <p>
+                            Gurami segar dimasak dengan kuah asam pedas yang
+                            kaya rempah, menciptakan rasa segar, gurih, dan
+                            sedikit pedas yang menyatu sempurna.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Gudeg Telur.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Gudeg Telur</h4>
+                          <br />
+                          <p>
+                            Olahan nangka muda khas Yogyakarta yang dimasak
+                            dengan santan dan gula merah, menghasilkan cita rasa
+                            manis dan aroma khas. Disajikan bersama telur.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Nasi Gudeg Ayam.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Nasi Gudeg + Ayam</h4>
+                          <p>
+                            Nasi hangat disajikan dengan gudeg, ayam opor,
+                            sambal krecek, yang sedap dan pelengkap lainnya
+                            dalam satu piring khas Jawa.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-5 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Tongseng Ayam.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Tongseng Ayam</h4>
+                          <br />
+                          <p>
+                            Masakan berkuah santan khas Jawa ini berisi potongan
+                            ayam yang dimasak bersama kol, tomat, dan aneka
+                            bumbu rempah.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-5 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Tongseng Kambing.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Tongseng Kambing</h4>
+                          <p>
+                            Masakan khas Jawa berbahan dasar daging kambing yang
+                            dimasak dalam kuah santan dengan bumbu rempah
+                            pilihan.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-5 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Soto.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Soto</h4>
+                          <p>
+                            Hidangan berkuah bening atau bersantan yang
+                            disajikan hangat dengan isian daging ayam atau sapi,
+                            bihun, tauge, telur, dan taburan bawang goreng.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="tab-2" class="tab-pane fade show p-0">
+              <div class="row g-4">
+                <div class="col-lg-12">
+                  <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Nasi Goreng.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Nasi Goreng Jawa</h4>
+                          <br />
+                          <p>
+                            Nasi goreng khas Jawa dengan cita rasa manis gurih
+                            dari kecap dan rempah tradisional.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Nasi Goreng Jawa.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Nasi Goreng Special</h4>
+                          <p>
+                            Nasi goreng istimewa dengan isian lengkap seperti
+                            ayam, telur, sosis, dan sayuran.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="tab-3" class="tab-pane fade show p-0">
+              <div class="row g-4">
+                <div class="col-lg-12">
+                  <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Ayam bakar.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Ayam Bakar</h4>
+                          <p>
+                            Ayam yang dimasak dengan cara dibakar setelah
+                            dibumbui, menghasilkan rasa gurih dan aroma khas
+                            asap yang menggugah selera.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Ayam Goreng.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Ayam Goreng</h4>
+                          <p>
+                            Ayam yang digoreng hingga renyah dan berwarna
+                            keemasan, memiliki cita rasa gurih dan tekstur yang
+                            krispi di luar, lembut di dalam.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Ayam Geprek.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Ayam Geprek</h4>
+                          <p>
+                            Ayam goreng krispi yang digeprek dengan sambal
+                            pedas, menyajikan perpaduan rasa gurih dan pedas
+                            yang menggoda selera.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Bebek Goreng.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Bebek Goreng</h4>
+                          <p>
+                            Daging bebek yang digoreng hingga garing di luar
+                            namun tetap empuk di dalam, disajikan dengan bumbu
+                            rempah khas yang bikin ketagihan.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Bebek Bakar.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Bebek Bakar</h4>
+                          <p>
+                            Bebek yang dibumbui lalu dibakar hingga matang
+                            sempurna, menghasilkan rasa gurih dengan aroma
+                            bakaran yang khas menjadikan sebuah makanan yang
+                            lezat
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Ikan Gurame Asam Manis.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Gurami Asam Manis</h4>
+                          <p>
+                            Ikan gurami yang digoreng lalu disiram saus asam
+                            manis, menghasilkan perpaduan rasa segar dan gurih
+                            yang menggugah selera.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Ikan Gurame Goreng.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-1 rounded-bottom"
+                        >
+                          <h4>Gurami Asam Pedas</h4>
+                          <p>
+                            Gurami segar dimasak dengan kuah asam pedas yang
+                            kaya rempah, menciptakan rasa segar, gurih, dan
+                            sedikit pedas yang menyatu sempurna.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Gudeg Telur.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Gudeg Telur</h4>
+                          <br />
+                          <p>
+                            Olahan nangka muda khas Yogyakarta yang dimasak
+                            dengan santan dan gula merah, menghasilkan cita rasa
+                            manis dan aroma khas. Disajikan bersama telur.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Nasi Gudeg Ayam.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Nasi Gudeg + Ayam</h4>
+                          <p>
+                            Nasi hangat disajikan dengan gudeg, ayam opor,
+                            sambal krecek, yang sedap dan pelengkap lainnya
+                            dalam satu piring khas Jawa.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-5 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Tongseng Ayam.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Tongseng Ayam</h4>
+                          <br />
+                          <p>
+                            Masakan berkuah santan khas Jawa ini berisi potongan
+                            ayam yang dimasak bersama kol, tomat, dan aneka
+                            bumbu rempah.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-5 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Tongseng Kambing.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Tongseng Kambing</h4>
+                          <p>
+                            Masakan khas Jawa berbahan dasar daging kambing yang
+                            dimasak dalam kuah santan dengan bumbu rempah
+                            pilihan.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-5 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Soto.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Makanan
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Soto</h4>
+                          <p>
+                            Hidangan berkuah bening atau bersantan yang
+                            disajikan hangat dengan isian daging ayam atau sapi,
+                            bihun, tauge, telur, dan taburan bawang goreng.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="tab-4" class="tab-pane fade show p-0">
+              <div class="row g-4">
+                <div class="col-lg-12">
+                  <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Teh Hangat.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Minuman
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Teh Hangat</h4>
+                          <p>
+                            Minuman teh diseduh dengan air panas, menghasilkan
+                            rasa hangat, ringan, dan menenangkan. Cocok
+                            dinikmati kapan saja, terutama di waktu santai.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Es Teh.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Minuman
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Es Teh</h4>
+                          <p>
+                            Teh manis yang disajikan dingin dengan es batu,
+                            memberikan kesegaran maksimal, cocok diminum saat
+                            cuaca panas dan dapat menyegarkan.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Es Jeruk.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Minuman
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Es jeruk</h4>
+                          <p>
+                            Perasan jeruk segar yang diberi gula dan es batu,
+                            menghasilkan rasa manis menyegarkan, cocok diminum
+                            setelah makan pedas.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Kopi.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Minuman
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Kopi</h4>
+                          <p>
+                            Minuman klasik yang diseduh dari bubuk kopi pilihan,
+                            memiliki aroma kuat dan rasa pahit khas yang
+                            menenangkan serta membangkitkan semangat.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Es Kopi.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Minuman
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Es Kopi</h4>
+                          <p>
+                            Kopi yang disajikan dingin dengan tambahan es batu,
+                            kadang dipadukan dengan susu atau gula, menghasilkan
+                            rasa segar dan nikmat.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Es Sirup.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Minuman
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Es Sirup</h4>
+                          <p>
+                            Minuman manis berwarna cerah dari sirup marjan
+                            demgan banyak pilihan rasa yang disajikan dengan air
+                            dan es batu, cocok untuk semua kalangan.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Es Joshua.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Minuman
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Es Joshua</h4>
+                          <p>
+                            Minuman segar perpaduan extra joss , susu kental
+                            manis, dan es batu, menghasilkan rasa manis legit
+                            dan bikin menggoda lidah.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Es Soda gembira.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Minuman
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Es Soda Gembira</h4>
+                          <p>
+                            Minuman khas yang terdiri dari soda manis, susu
+                            kental, dan sirup, menciptakan sensasi rasa manis,
+                            segar, dan bersoda yang segar.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="tab-5" class="tab-pane fade show p-0">
+              <div class="row g-4">
+                <div class="col-lg-12">
+                  <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Tahu Kocek.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Snack
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Tahu Kocek</h4>
+                          <p>
+                            Tahu yang dipotong kecil lalu digoreng dan disajikan
+                            dengan cabe, masko, dan taburan bawang goreng. Cocok
+                            sebagai camilan.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Tahu Krispi.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Snacks
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Tahu Krispi</h4>
+                          <p>
+                            Tahu digoreng dengan balutan tepung berbumbu hingga
+                            renyah di luar dan lembut di dalam, rasa gurih yang
+                            nikmat.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Kentang Goreng.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Snack
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Kentang Goreng</h4>
+                          <p>
+                            Kentang yang dipotong memanjang dan digoreng hingga
+                            matang, disajikan dengan saus sambal atau mayones.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img
+                            src="img/Cireng.jpg"
+                            class="img-fluid w-100 rounded-top"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                          style="top: 10px; left: 10px"
+                        >
+                          Snack
+                        </div>
+                        <div
+                          class="p-4 border border-secondary border-top-0 rounded-bottom"
+                        >
+                          <h4>Cireng</h4>
+                          <p>
+                            Aci digoreng khas Sunda yang renyah di luar dan
+                            kenyal di dalam, disajikan dengan sambal rujak atau
+                            saus pedas manis.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fruits Shop End-->
+
+    <!-- Bestsaler Product Start -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="text-center mx-auto mb-5" style="max-width: 700px">
+          <h1 class="display-4">Menu Bestseller</h1>
+          <p>
+            Menu andalan kami yang paling banyak disukai, wajib dicoba untuk
+            pengalaman kuliner yang istimewa.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6 col-xl-4">
+            <div class="p-4 rounded bg-light">
+              <div class="row align-items-center">
+                <div class="col-6">
+                  <img
+                    src="img/Ayam Bakar.jpg"
+                    class="img-fluid rounded-circle w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="col-6">
+                  <a href="#" class="h5">Ayam Bakar</a>
+                  <div class="d-flex my-3">
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-4">
+            <div class="p-4 rounded bg-light">
+              <div class="row align-items-center">
+                <div class="col-6">
+                  <img
+                    src="img/Ayam Goreng.jpg"
+                    class="img-fluid rounded-circle w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="col-6">
+                  <a href="#" class="h5">Ayam Goreng</a>
+                  <div class="d-flex my-3">
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-4">
+            <div class="p-4 rounded bg-light">
+              <div class="row align-items-center">
+                <div class="col-6">
+                  <img
+                    src="img/Ayam Geprek.jpg"
+                    class="img-fluid rounded-circle w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="col-6">
+                  <a href="#" class="h5">Ayam Geprek</a>
+                  <div class="d-flex my-3">
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-4">
+            <div class="p-4 rounded bg-light">
+              <div class="row align-items-center">
+                <div class="col-6">
+                  <img
+                    src="img/Bebek Goreng.jpg"
+                    class="img-fluid rounded-circle w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="col-6">
+                  <a href="#" class="h5">Bebek Goreng</a>
+                  <div class="d-flex my-3">
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-4">
+            <div class="p-4 rounded bg-light">
+              <div class="row align-items-center">
+                <div class="col-6">
+                  <img
+                    src="img/Bebek Bakar.jpg"
+                    class="img-fluid rounded-circle w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="col-6">
+                  <a href="#" class="h5">Bebek Bakar</a>
+                  <div class="d-flex my-3">
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-4">
+            <div class="p-4 rounded bg-light">
+              <div class="row align-items-center">
+                <div class="col-6">
+                  <img
+                    src="img/Ikan Gurame Asam Manis.jpg"
+                    class="img-fluid rounded-circle w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="col-6">
+                  <a href="#" class="h5">Gurami Asam Pedas</a>
+                  <div class="d-flex my-3">
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-4">
+            <div class="p-4 rounded bg-light">
+              <div class="row align-items-center">
+                <div class="col-6">
+                  <img
+                    src="img/Nasi Gudeg Ayam.jpg"
+                    class="img-fluid rounded-circle w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="col-6">
+                  <a href="#" class="h5">Nasi Gudeg + Ayam</a>
+                  <div class="d-flex my-3">
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-4">
+            <div class="p-4 rounded bg-light">
+              <div class="row align-items-center">
+                <div class="col-6">
+                  <img
+                    src="img/Tongseng Ayam.jpg"
+                    class="img-fluid rounded-circle w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="col-6">
+                  <a href="#" class="h5">Tongseng Ayam</a>
+                  <div class="d-flex my-3">
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-4">
+            <div class="p-4 rounded bg-light">
+              <div class="row align-items-center">
+                <div class="col-6">
+                  <img
+                    src="img/Tongseng Kambing.jpg"
+                    class="img-fluid rounded-circle w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="col-6">
+                  <a href="#" class="h5">Tongseng Kambing</a>
+                  <div class="d-flex my-3">
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bestsaler Product End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
+      <div class="container py-5">
+        <div
+          class="pb-4 mb-4"
+          style="border-bottom: 1px solid rgba(226, 175, 24, 0.5)"
+        >
+          <div class="row g-4">
+            <div class="col-lg-3">
+              <a href="#">
+                <h1 class="text-primary mb-0">Sirasa</h1>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <div class="d-flex justify-content-end pt-3"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <div class="d-flex flex-column text-start footer-item">
+              <h4 class="text-light mb-3">Shop Info</h4>
+              <a class="btn-link" href="#tab-1">Menu</a>
+              <a class="btn-link" href="shop.html">Shop Detail</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="text-light mb-3">Contact</h4>
+              <p><i class="fa fa-envelope me-2"></i> Email: Sirasa@gmail.com</p>
+              <p><i class="fa fa-phone me-2"></i> Phone: 085719630447</p>
+              <a
+                class="btn btn-success me-2 btn-md-square rounded-circle"
+                href="https://wa.me/6285719630447"
+                target="_blank"
+              >
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="text-light mb-3">Location</h4>
+              <p>
+                <i class="bi bi-geo-alt-fill me-2"></i> Jl. PB.Sudirman,
+                Racekan, Pringgowirawan, Kec. Sumberbaru, Kabupaten Jember, Jawa
+                Timur 68156
+              </p>
+              <a
+                class="btn btn-success me-2 btn-md-square rounded-circle"
+                href="https://maps.app.goo.gl/H7Nf4PTXwvhLf2ti7"
+                target="_blank"
+              >
+                <i class="bi bi-geo-alt-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <span class="text-light"
+              ><a href="#"
+                ><i class="fas fa-copyright text-light me-2"></i>Sirasa</a
+              >, All right reserved.</span
+            >
+          </div>
+          <div class="col-md-6 my-auto text-center text-md-end text-white">
+            <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+            <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+            <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+            Designed By
+            <a class="border-bottom" href="">MIF D</a>
+            Distributed By
+            <a class="border-bottom" href="">Sirasa</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-primary border-3 border-primary rounded-circle back-to-top"
+      ><i class="fa fa-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
